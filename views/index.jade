@@ -1,0 +1,9 @@
+doctype html
+html
+    head
+        title Response
+    body
+        h1 Following are the titles of given websites:
+        ul
+            each formatUrl, i in formatUrls
+                li #{formatUrl.label} - #{formatUrl.value}

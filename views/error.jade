@@ -1,0 +1,9 @@
+doctype html
+html
+    head
+        title Error
+    body
+        h1 Following are the titles not a web page:
+        ul
+            each formatInvalidUrl, i in formatInvalidUrls
+                li #{formatInvalidUrl.label} - #{formatInvalidUrl.value}
